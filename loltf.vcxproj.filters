@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>Imgui\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_demo.cpp">
+      <Filter>Imgui\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>Imgui\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>Imgui\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>Imgui\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_tables.cpp">
+      <Filter>Imgui\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>Imgui\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="External.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="HyperV\HyperV.cpp">
+      <Filter>External\HyperV</Filter>
+    </ClCompile>
+    <ClCompile Include="HyperV\Utils.cpp">
+      <Filter>External\HyperV</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\memory1.cpp">
+      <Filter>External\External Features\Memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cheat.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="Skicript.hpp">
+      <Filter>External\Other Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="icons1.h">
+      <Filter>External\Other Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="FVector.h">
+      <Filter>External\Other Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="xstring.h">
+      <Filter>External\Other Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Print.hpp">
+      <Filter>External\Other Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.cpp">
+      <Filter>External\External Features\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="definitions.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="MainIncludes.h">
+      <Filter>External\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Keybind.h">
+      <Filter>External\External Features\Aimbot\Aimbot Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="FN_Sdk_Offsets.h">
+      <Filter>External\Game Information\Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="W2S_ Camera.h">
+      <Filter>External\External Features\Esp\Camera &amp; W2S</Filter>
+    </ClInclude>
+    <ClInclude Include="FN Sdk Includes.h">
+      <Filter>External\Game Information\Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneIndex.h">
+      <Filter>External\Game Information\GetBoneIndex</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawEsp.h">
+      <Filter>External\External Features\Esp</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9core.h">
+      <Filter>Includes\directx9</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9effect.h">
+      <Filter>Includes\directx9</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9math.h">
+      <Filter>Includes\directx9</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9mesh.h">
+      <Filter>Includes\directx9</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9shader.h">
+      <Filter>Includes\directx9</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9shape.h">
+      <Filter>Includes\directx9</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9tex.h">
+      <Filter>Includes\directx9</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9xof.h">
+      <Filter>Includes\directx9</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9.h">
+      <Filter>Includes\directx9</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9anim.h">
+      <Filter>Includes\directx9</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowStreamProof.h">
+      <Filter>External\External Features\StreamProof</Filter>
+    </ClInclude>
+    <ClInclude Include="Threads.h">
+      <Filter>External\External Features</Filter>
+    </ClInclude>
+    <ClInclude Include="lazyimp.hpp">
+      <Filter>External\Other Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>Imgui\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>Imgui\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_dx9.h">
+      <Filter>Imgui\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_win32.h">
+      <Filter>Imgui\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>Imgui\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_rectpack.h">
+      <Filter>Imgui\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_textedit.h">
+      <Filter>Imgui\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_truetype.h">
+      <Filter>Imgui\h</Filter>
+    </ClInclude>
+    <ClInclude Include="input.hpp">
+      <Filter>External\External Features\Aimbot\Aimbot Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Users\admin\Desktop\5.1.1-25595478+++Fortnite+Release-24.40\SDK.hpp" />
+    <ClInclude Include="..\Users\admin\Desktop\5.1.1-25595478+++Fortnite+Release-24.40\SDK\F5PlayerFactory_classes.hpp" />
+    <ClInclude Include="ImGuiIncludes.h">
+      <Filter>External\Game Information\Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperV\HyperV.h">
+      <Filter>External\HyperV</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperV\Utils.h">
+      <Filter>External\HyperV</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\memory1.h">
+      <Filter>External\External Features\Memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{c3ea2088-a3ad-41bf-b883-8ddf92287b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{4020f901-eb74-40cb-9486-fb4f4f469415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui\cpp">
+      <UniqueIdentifier>{d920bf92-ef3b-40f4-8bf2-d580b9c15f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui\h">
+      <UniqueIdentifier>{7a9939cb-9bf1-4163-b0e4-b51f291ad37a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\Game Information">
+      <UniqueIdentifier>{6bdbcf8f-01f4-49d5-8589-86196101a4c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\Other Includes">
+      <UniqueIdentifier>{e9cde4ec-bec8-4273-a71d-21cd452940da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\Includes">
+      <UniqueIdentifier>{8466ccf4-b8c1-48cc-907c-e5f305cd2630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\Game Information\Offsets">
+      <UniqueIdentifier>{b4641a7e-e7a4-4537-bb46-e44130b00499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\Game Information\GetBoneIndex">
+      <UniqueIdentifier>{4d05ea7d-f9b0-4430-bca7-9afe6275dab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{65b51857-07b2-4ce7-bb7e-d21b7686d6c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\directx9">
+      <UniqueIdentifier>{8d8c8d35-afbc-4de1-8720-82a1e4eaadfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\External Features">
+      <UniqueIdentifier>{4e1f62df-5f12-4ffd-8e3a-230e8293a688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\External Features\Esp">
+      <UniqueIdentifier>{e39b327e-67f6-4bc9-85bb-3d49b14e0c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\External Features\Aimbot">
+      <UniqueIdentifier>{a25be619-3eb4-4593-a1b4-e73f60af532f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\External Features\Aimbot\Aimbot Includes">
+      <UniqueIdentifier>{f0093df8-e5c6-497d-9067-02f99b32a3b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\External Features\StreamProof">
+      <UniqueIdentifier>{ca106d43-8e5f-4993-8744-81720553c7bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\External Features\Esp\Camera &amp; W2S">
+      <UniqueIdentifier>{d0e9d2d7-97a2-46f8-80a7-7ff7adf59323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\HyperV">
+      <UniqueIdentifier>{89d64466-55af-43c5-a8af-5eea6a5f52cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\External Features\Memory">
+      <UniqueIdentifier>{c26f12e1-aa0d-4a52-8fe7-19195d18aae7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="directx9\d3dx9math.inl">
+      <Filter>Includes\directx9</Filter>
+    </None>
+    <None Include="HyperV\Asm.asm">
+      <Filter>External\HyperV</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="directx9\d3dx9.lib">
+      <Filter>Includes\directx9</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="HyperV\Asm.obj">
+      <Filter>External\HyperV</Filter>
+    </Object>
+  </ItemGroup>
+</Project>
