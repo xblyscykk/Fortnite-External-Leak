@@ -279,7 +279,7 @@ int milox;
 int main()
 {//
 	system(skCrypt("color e"));
-	// add museo.ttf font (neverlose font) download here
+	// add museo.ttf font (neverlose font) download here / change the font
 	Memory.Initialize();
 	if (!Memory.Initialize()) {
 		printf(skCrypt("Prerequisties not loaded, rebooting. If the error persists contact support. \n"));
