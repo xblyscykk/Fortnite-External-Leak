@@ -1,1 +1,1 @@
-my old p2c external with many exploits, based on modded pasteager.
+if ur still pasting it update offsets and add cr3 it will work
